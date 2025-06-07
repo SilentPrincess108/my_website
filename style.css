@@ -9,13 +9,12 @@ body{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 header{
     width: 1200px;
     height: 150px;
-    padding: 10px;
     background-color: white;
     text-align: center;
     border-radius: 20px;
@@ -24,7 +23,6 @@ header{
 #content{
     width: 1200px;
     height: 800px;
-    padding: 10px;
     display: flex;
     gap: 20px;
 }
@@ -43,4 +41,36 @@ aside{
 section{
     width: 80%;
     height: 800px;
+}
+
+#left{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#left #pfp{
+    width: 200px;
+    height: 200px;
+    background-image: url("images/zelda_totk.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#left #info{
+    width: 200px;
+    height: 100px;
+    border: 3px dashed lightblue;
+    border-radius: 10px;
+}
+
+#left #info p{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 10px;
+}
+
+#left ul{
+    list-style-type: none;
 }
