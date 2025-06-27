@@ -66,11 +66,47 @@ section{
 }
 
 #left #info p{
+    display: block;
     margin-top: 11px;
     margin-bottom: 11px;
     margin-left: 10px;
+    color: lightblue;
+}
+
+#left #info p:hover{
+    text-decoration: underline;
+}
+
+#left nav{
+    border: 3px dashed lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#left nav p{
+    display: block;
+    margin: 0;
+    padding: 6px;
+    color: white;
+    background-color: lightblue;
 }
 
 #left ul{
     list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+#left li a{
+    display: block;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 10px;
+    color: lightblue;
+}
+
+#left li a:hover{
+    background-color: lightblue;
+    color: white;
 }
