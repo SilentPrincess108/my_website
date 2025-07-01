@@ -58,9 +58,9 @@ section{
     border-radius: 10px;
 }
 
-#left #info{
-    width: 200px;
-    height: 100px;
+#left .box{
+    width: auto;
+    height: auto;
     border: 3px dashed lightblue;
     border-radius: 10px;
 }
@@ -73,9 +73,6 @@ section{
     color: lightblue;
 }
 
-#left #info p:hover{
-    text-decoration: underline;
-}
 
 #left nav{
     border: 3px dashed lightblue;
@@ -83,10 +80,11 @@ section{
     text-align: center;
 }
 
-#left nav p{
+#left nav p, #socials p{
     display: block;
     margin: 0;
     padding: 6px;
+    text-align: center;
     color: white;
     background-color: lightblue;
 }
