@@ -87,6 +87,7 @@ section{
     text-align: center;
     color: white;
     background-color: lightblue;
+    font-size: 18px;
 }
 
 #left ul{
@@ -112,4 +113,39 @@ section{
 #desc p{
     padding: 15px;
     margin: 0;
+    color: lightblue;
+}
+
+.carousel{
+    width: 200px;
+    height: 800px;
+    overflow: hidden;
+    border: 2px dashed lightblue;
+    border-radius: 10px;
+}
+
+.image-track{
+    display: flex;
+    flex-direction: column;
+    animation: scroll-up 8s linear infinite;
+    gap: 10px;
+}
+
+.image-track img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes scroll-up {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-1328px);
+    }
+}
+
+.image-track:hover{
+    animation-play-state: paused;
 }
