@@ -58,7 +58,7 @@ section{
     border-radius: 10px;
 }
 
-#left .box{
+.box{
     width: auto;
     height: auto;
     border: 3px dashed lightblue;
@@ -80,7 +80,7 @@ section{
     text-align: center;
 }
 
-#left nav p, #socials p{
+#left nav p, #socials p, #middle #title{
     display: block;
     margin: 0;
     padding: 6px;
@@ -107,4 +107,9 @@ section{
 #left li a:hover{
     background-color: lightblue;
     color: white;
+}
+
+#desc p{
+    padding: 15px;
+    margin: 0;
 }
