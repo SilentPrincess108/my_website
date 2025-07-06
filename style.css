@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: #7cb1e8;
 }
 
 #container{
@@ -61,7 +61,7 @@ section{
 .box{
     width: auto;
     height: auto;
-    border: 3px dashed lightblue;
+    border: 3px dashed #7cb1e8;
     border-radius: 10px;
 }
 
@@ -70,12 +70,12 @@ section{
     margin-top: 11px;
     margin-bottom: 11px;
     margin-left: 10px;
-    color: lightblue;
+    color: #7cb1e8;
 }
 
 
 #left nav{
-    border: 3px dashed lightblue;
+    border: 3px dashed #7cb1e8;
     border-radius: 10px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ section{
     padding: 6px;
     text-align: center;
     color: white;
-    background-color: lightblue;
+    background-color: #7cb1e8;
     font-size: 18px;
 }
 
@@ -102,18 +102,18 @@ section{
     text-align: left;
     text-decoration: none;
     border-radius: 10px;
-    color: lightblue;
+    color: #7cb1e8;
 }
 
 #left li a:hover{
-    background-color: lightblue;
+    background-color: #7cb1e8;
     color: white;
 }
 
 #desc p{
     padding: 15px;
     margin: 0;
-    color: lightblue;
+    color: #7cb1e8;
     font-size: 20px;
 }
 
@@ -121,7 +121,7 @@ section{
     width: 200px;
     height: 800px;
     overflow: hidden;
-    border: 2px dashed lightblue;
+    border: 2px dashed #7cb1e8;
     border-radius: 10px;
 }
 
