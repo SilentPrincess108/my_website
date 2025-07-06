@@ -4,7 +4,7 @@ body{
 
 #container{
     width: 1200px;
-    height: 1000px;
+    height: 900px;
     margin: auto;
     padding: 10px;
     display: flex;
@@ -14,7 +14,7 @@ body{
 
 header{
     width: 1200px;
-    height: 150px;
+    height: 100px;
     background-color: white;
     text-align: center;
     border-radius: 20px;
