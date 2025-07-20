@@ -1,10 +1,22 @@
 body{
-    background-color: #7cb1e8;
+    background-image: linear-gradient(rgba(124, 177, 232,0.5), rgba(244, 249, 253,1), rgba(124, 177, 232,0.5));
 }
 
+hr{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #305978;
+}
+
+
 #container{
-    width: 1200px;
-    height: 900px;
+    width: 1500px;
+    height: 100vh;
     margin: auto;
     padding: 10px;
     display: flex;
@@ -13,54 +25,56 @@ body{
 }
 
 header{
-    width: 1200px;
+    width: 850px;
     height: 100px;
-    background-color: white;
     text-align: center;
     border-radius: 20px;
 }
 
 #content{
-    width: 1200px;
-    height: 800px;
+    width: 1500px;
+    height: 600px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
-.main-content{
-    padding: 10px;
-    background-color: white;
-    border-radius: 20px;
+article{
+    width: 15%;
 }
 
 aside{
-    width: 20%;
-    height: 800px;
+    width: 25%;
+    height: 600px;
 }
 
 section{
-    width: 80%;
-    height: 800px;
+    width: 60%;
+    height: 600px;
 }
 
-#left{
+#left, #middle, #right{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 #left #pfp{
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     background-image: url("images/zelda_totk.jpg");
     background-size: cover;
-    border-radius: 10px;
 }
 
 .box{
-    border: 3px dashed #7cb1e8;
-    border-radius: 10px;
+    background-color: #f4f9fd;
+    border: 3px solid #305978;
+    border-radius: 5px;
+    box-shadow: -2px 2px 10px #305978;
+}
+
+#info{
+    overflow: hidden;
 }
 
 #left #info p{
@@ -68,13 +82,11 @@ section{
     margin-top: 11px;
     margin-bottom: 11px;
     margin-left: 10px;
-    color: #7cb1e8;
+    color: black;
 }
 
 
 #left nav{
-    border: 3px dashed #7cb1e8;
-    border-radius: 10px;
     text-align: center;
 }
 
@@ -83,8 +95,7 @@ section{
     margin: 0;
     padding: 6px;
     text-align: center;
-    color: white;
-    background-color: #7cb1e8;
+    color: black;
     font-size: 18px;
 }
 
@@ -100,45 +111,43 @@ section{
     text-align: left;
     text-decoration: none;
     border-radius: 10px;
-    color: #7cb1e8;
+    color: black;
 }
 
 #left li a:hover{
     background-color: #7cb1e8;
-    color: white;
+    color: black;
 }
 
 #desc{
     height: 200px;
-    width: 690px;
+    width: 850px;
 }
 
 #updates{
     height: 200px;
-    width: 200px;
+    width: 850px;
     overflow: hidden;
 }
 
 #desc p, #updates p{
     padding: 15px;
     margin: 0;
-    color: #7cb1e8;
+    color: black;
     font-size: 20px;
 }
 
 .carousel{
-    width: 200px;
-    height: 800px;
+    width: 360px;
+    height: 500px;
     overflow: hidden;
-    border: 2px dashed #7cb1e8;
-    border-radius: 10px;
 }
 
 .image-track{
     display: flex;
     flex-direction: column;
-    animation: scroll-up 8s linear infinite;
-    gap: 10px;
+    animation: scroll-up 10s linear infinite;
+    gap: 5px;
 }
 
 .image-track img{
@@ -152,7 +161,7 @@ section{
         transform: translateY(0);
     }
     100%{
-        transform: translateY(-1328px);
+        transform: translateY(-2360px);
     }
 }
 

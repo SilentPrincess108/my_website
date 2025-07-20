@@ -7,20 +7,19 @@
     <title>Document</title>
 </head>
 <body>
+    <hr>
     <div id="container">
-        <header>
-            <h1>Header</h1>
-        </header>
-        <!--comment here!-->
         <div id="content">
-            <aside id="left" class="main-content">
-                <div id="pfp"></div>
-                <div class="box" id="info">
-                    <p>Name: Rosan</p>
-                    <p>Age: 15</p>
-                    <p>Pronouns: she/her</p>
+            <article id="left" class="main-content">
+                <div id="info" class="box">
+                    <div id="pfp"></div>
+                    <div id="info">
+                        <p>Name: Rosan</p>
+                        <p>Age: 15</p>
+                        <p>Pronouns: she/her</p>
+                    </div>
                 </div>
-                <nav>
+                <nav class="box">
                     <p>Navigation</p>
                     <ul>
                         <li><a href="">About Me</a></li>
@@ -29,18 +28,11 @@
                         <li><a href="">Dev Logs</a></li>
                     </ul>
                 </nav>
-                <div class="box" id="socials">
-                    <p>Socials</p>
-                    <ul>
-                        <li><a href="https://github.com/SilentPrincess108" target="_blank" title="My Github!">Github</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="My YT Channel!">Youtube</a></li>
-                        <li><a href="https://www.instagram.com/silentprincess_86/" target="_blank" title="See me on insta!">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/in/rosan-syal-1b2a82339/" target="_blank" title="See me on LinkedIn!">LinkedIn</a></li>
-                        
-                    </ul>
-                </div>
-            </aside>
+            </article>
             <section class="main-content" id="middle">
+                <header>
+                    <h1>Header</h1>
+                </header>
                 <div class="box" id="desc">
                     <p id="desc-title">Description</p>
                     <p>Hello! Welcome to my digital corner of the internet!</p>
@@ -56,21 +48,34 @@
                 </div>
             </section>
             <aside id="right" class="main-content">
-                <div class="carousel">
-                    <div class="image-track">
-                        <img src="images/re4r_poster.jpg">
-                        <img src="images/totk_poster.jpg">
-                        <img src="images/DBH_poster2.jpg">
-                        <img src="images/gameboy_poster.jpg">
-                        <img src="images/psp_poster.jpg">
-                        <!--Duplicate images for smooth loop-->
-                        <img src="images/re4r_poster.jpg">
-                        <img src="images/totk_poster.jpg">
-                        <img src="images/DBH_poster2.jpg">
+                <div id="posters" class="box">
+                    <div class="carousel">
+                        <div class="image-track">
+                            <img src="images/re4r_poster.jpg">
+                            <img src="images/totk_poster.jpg">
+                            <img src="images/DBH_poster2.jpg">
+                            <img src="images/gameboy_poster.jpg">
+                            <img src="images/psp_poster.jpg">
+                            <!--Duplicate images for smooth loop-->
+                            <img src="images/re4r_poster.jpg">
+                            <img src="images/totk_poster.jpg">
+                            <img src="images/DBH_poster2.jpg">
+                        </div>
                     </div>
+                </div>
+                <div class="box" id="socials">
+                    <p>Socials</p>
+                    <ul>
+                        <li><a href="https://github.com/SilentPrincess108" target="_blank" title="My Github!">Github</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="My YT Channel!">Youtube</a></li>
+                        <li><a href="https://www.instagram.com/silentprincess_86/" target="_blank" title="See me on insta!">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/rosan-syal-1b2a82339/" target="_blank" title="See me on LinkedIn!">LinkedIn</a></li>
+                        
+                    </ul>
                 </div>
             </aside>
         </div>
     </div>
+    <hr>
 </body>
 </html>
