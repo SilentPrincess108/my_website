@@ -142,20 +142,6 @@ section{
     font-size: 20px;
 }
 
-.quote{
-    display: inline-block;
-}
-
-.text{
-    border-right: 5x solid;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-            typing 2s steps(18)
-            cursor .4s step-end infinite alternate;
-}
-
 .carousel{
     width: 360px;
     height: 500px;
