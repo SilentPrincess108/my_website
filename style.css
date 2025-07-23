@@ -70,12 +70,6 @@ section{
     gap: 40px;
 }
 
-#left #pfp{
-    width: 225px;
-    height: 225px;
-    background-image: url("images/zelda_totk.jpg");
-    background-size: cover;
-}
 
 .box{
     background-color: #f4f9fd;
@@ -90,25 +84,25 @@ section{
 }
 
 #info{
-    overflow: hidden;
-    height: 700px;
+    height: 375px;
 }
 
-#left #info p{
-    display: block;
-    margin-top: 11px;
-    margin-bottom: 11px;
-    margin-left: 10px;
+#left #pfp{
+    width: 215px;
+}
+
+#left #info #stats p{
+    margin: 10px;
+    text-align: left;
+    font-size: 16px;
     color: #305978;
-    font-size: 14px;
 }
-
 
 #left nav{
     text-align: center;
 }
 
-#left nav p, #socials p, #middle #desc-title, #middle #updates-title{
+#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title{
     display: block;
     margin: 0;
     padding: 6px;
