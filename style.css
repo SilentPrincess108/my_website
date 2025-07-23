@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Orbitron";
+}
+
 body{
     background-image: linear-gradient(rgba(124, 177, 232,0.5), rgba(244, 249, 253,1), rgba(124, 177, 232,0.5));
 }
@@ -27,8 +36,10 @@ hr{
 header{
     width: 850px;
     height: 100px;
-    text-align: center;
+    text-align: left;
     border-radius: 20px;
+    font-size: 30px;
+    color: #305978;
 }
 
 #content{
@@ -80,6 +91,7 @@ section{
 
 #info{
     overflow: hidden;
+    height: 700px;
 }
 
 #left #info p{
@@ -87,7 +99,8 @@ section{
     margin-top: 11px;
     margin-bottom: 11px;
     margin-left: 10px;
-    color: black;
+    color: #305978;
+    font-size: 14px;
 }
 
 
@@ -100,28 +113,29 @@ section{
     margin: 0;
     padding: 6px;
     text-align: center;
-    color: black;
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
+    background-color: #305978;
 }
 
-#left ul{
+#left ul, #right ul{
     list-style-type: none;
     padding: 0px;
     margin: 0;
 }
 
-#left li a{
+#left li a, #right li a{
     display: block;
     padding: 15px;
     text-align: left;
     text-decoration: none;
-    border-radius: 10px;
-    color: black;
+    color: #305978;
 }
 
-#left li a:hover{
-    background-color: #7cb1e8;
-    color: black;
+
+#left li a:hover, #right li a:hover{
+    background-color: #305978;
+    color: white;
 }
 
 #desc{
@@ -138,8 +152,8 @@ section{
 #desc p, #updates p{
     padding: 15px;
     margin: 0;
-    color: black;
-    font-size: 20px;
+    color: #305978;
+    font-size: 16px;
 }
 
 .carousel{
