@@ -144,10 +144,18 @@ section{
 }
 
 #desc p, #updates p{
-    padding: 15px;
+    padding: 10px;
     margin: 0;
     color: #305978;
     font-size: 16px;
+}
+
+#middle .quote{
+    border-left: 5px solid #305978;
+    padding: 15px;
+    font-size: 20px;
+    color: #305978;
+    text-shadow: 2px 2px 4px #305978;
 }
 
 .carousel{
