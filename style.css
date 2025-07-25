@@ -5,6 +5,7 @@
 
 *{
     font-family: "Orbitron";
+    letter-spacing: 2px;
 }
 
 body{
@@ -55,12 +56,12 @@ article{
 
 aside{
     width: 25%;
-    height: 600px;
+    height: 800px;
 }
 
 section{
     width: 60%;
-    height: 600px;
+    height: 800px;
 }
 
 #left, #middle, #right{
@@ -133,14 +134,37 @@ section{
 }
 
 #desc{
-    height: 200px;
+    height: 250px;
     width: 850px;
 }
 
 #updates{
-    height: 200px;
+    height: 150px;
     width: 850px;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track{
+    background-color: #f4f9fd;
+    box-shadow: inset 0px 0px 5px #305978;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb{
+    background-color: #305978;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f4f9fd;
 }
 
 #desc p, #updates p{
