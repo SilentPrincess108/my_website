@@ -8,6 +8,7 @@
     letter-spacing: 2px;
 }
 
+/* styling for both homepg, devlog pg*/
 .home, .devlogs{
     background-image: linear-gradient(rgba(124, 177, 232,0.5), rgba(244, 249, 253,1), rgba(124, 177, 232,0.5));
     background-repeat: no-repeat;
@@ -25,12 +26,6 @@ hr{
     border-color: #305978;
 }
 
-#marquee{
-    width: 100%;
-    direction: left;
-    height: 20px;
-    color: #305978;
-}
 
 #container{
     width: 1500px;
@@ -40,6 +35,15 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* styling for home page */
+
+#marquee{
+    width: 100%;
+    direction: left;
+    height: 20px;
+    color: #305978;
 }
 
 header{
@@ -57,9 +61,10 @@ header{
     width: 80px;
 }
 
+/* styling for both homepg, devlog pg */
 #content{
     width: 1500px;
-    height: 600px;
+    height: 100vh;
     display: flex;
     gap: 40px;
 }
@@ -68,12 +73,14 @@ article{
     width: 15%;
 }
 
-aside{
+/* styling for both homepg aside */
+.main-content-right{
     width: 25%;
     height: 800px;
 }
 
-section{
+/* styling for both homepg main */
+.main-content-home{
     width: 60%;
     height: 800px;
 }
@@ -225,4 +232,21 @@ section{
 
 .image-track:hover{
     animation-play-state: paused;
+}
+
+/* styling for devlog page */
+.devlog-aside{
+    width: 40%;
+    height: 800px;
+}
+
+.devlog-section{
+    width: 60%;
+    height: 800px;
+}
+
+#devlog-desc{
+    width: 550px;
+    height: 300px;
+    padding: 10px;
 }
