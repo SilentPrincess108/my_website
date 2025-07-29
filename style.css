@@ -124,7 +124,7 @@ article{
     text-align: center;
 }
 
-#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title{
+#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside title, .devlog-section #title{
     display: block;
     margin: 0;
     padding: 6px;
@@ -243,10 +243,21 @@ article{
 .devlog-section{
     width: 60%;
     height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 14px;
 }
 
 #devlog-desc{
     width: 550px;
     height: 300px;
     padding: 10px;
+}
+
+#devlog-section-1{
+    width: 425px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
