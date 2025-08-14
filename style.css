@@ -31,7 +31,7 @@ hr{
     width: 1500px;
     height: 100vh;
     margin: auto;
-    padding: 50px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -47,7 +47,6 @@ hr{
 }
 
 header{
-    width: 850px;
     height: 100px;
     text-align: left;
     border-radius: 20px;
@@ -124,7 +123,7 @@ article{
     text-align: center;
 }
 
-#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside title, .devlog-section #title{
+#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside #title, .devlog-section #title{
     display: block;
     margin: 0;
     padding: 6px;
@@ -188,7 +187,7 @@ article{
   background: #f4f9fd;
 }
 
-#desc p, #updates p{
+#desc p, #updates p, #devlog-desc p{
     padding: 10px;
     margin: 0;
     color: #305978;
@@ -246,17 +245,16 @@ article{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    gap: 14px;
+    gap: 40px;
 }
 
 #devlog-desc{
     width: 550px;
     height: 300px;
-    padding: 10px;
 }
 
 #devlog-section-1{
-    width: 425px;
+    width: 400px;
     height: 200px;
     overflow: scroll;
     overflow-x: hidden;
