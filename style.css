@@ -259,3 +259,37 @@ article{
     overflow: scroll;
     overflow-x: hidden;
 }
+
+/* Styling for About Me Page */
+
+.about-me-section{
+    width: 40%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me-aside{
+    width: 60%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.about-me-section #profile-card{
+    width: 550px;
+    height: 650px;
+}
+
+.about-me-aside #stats, #inventory{
+    width: 700px;
+    height: 250px;
+}
+
+.about-me-aside #add{
+    width: 700px;
+    height: 105px;
+}
