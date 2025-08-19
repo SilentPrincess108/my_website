@@ -9,7 +9,7 @@
 }
 
 /* styling for both homepg, devlog pg*/
-.home, .devlogs{
+.home, .devlogs, .about-me{
     background-image: linear-gradient(rgba(124, 177, 232,0.5), rgba(244, 249, 253,1), rgba(124, 177, 232,0.5));
     background-repeat: no-repeat;
     
