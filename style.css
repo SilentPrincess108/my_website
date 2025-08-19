@@ -26,6 +26,24 @@ hr{
     border-color: #305978;
 }
 
+button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    background-color: #305978;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: -2px 2px 10px #305978;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover{
+    box-shadow: -2px 2px 20px #305978;
+    transform: scale(1.01);
+}
 
 #container{
     width: 1500px;
