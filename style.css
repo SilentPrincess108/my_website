@@ -342,11 +342,6 @@ article{
     font-size: 18px;
 }
 
-.about-me-aside #add{
-    width: 700px;
-    height: 105px;
-}
-
 .about-me-section #facts{
     display: flex;
     flex-direction: row;
@@ -368,4 +363,14 @@ article{
     overflow-x: hidden;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.about-me-aside #more-socials{
+    width: 700px;
+    height: 105px;
+}
+
+.about-me-aside #more-socials img{
+    width: 75px;
+    margin: 18px;
 }
