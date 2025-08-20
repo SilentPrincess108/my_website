@@ -141,7 +141,7 @@ article{
     text-align: center;
 }
 
-#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside #title, .devlog-section #title, .about-me-aside #title{
+#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside #title, .devlog-section #title, .about-me-aside #title, .about-me-section #title{
     display: block;
     margin: 0;
     padding: 6px;
@@ -302,7 +302,7 @@ article{
     height: 600px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-bottom: 20px;
     gap: 20px;
     color: #305978;
 }
@@ -312,14 +312,24 @@ article{
     height: 250px;
 }
 
-.about-me-aside #stats img{
-    width: 200px;
-}
-
 .about-me-aside #stats{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    color: #305978;
+}
+
+.about-me-aside #stats img{
+    width: 250px;
+}
+
+.about-me-aside #stats #stat-txt{
+    width: 330px;
+    margin: auto;
+}
+
+.about-me-aside #stat-txt p{
+    margin-left: 15px;
 }
 
 .about-me-aside #add{
@@ -331,6 +341,8 @@ article{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about-me-section #pfp{
@@ -340,8 +352,10 @@ article{
 
 .about-me-section #desc{
     border: 3px solid #305978;
-    width: 550px;
+    width: 525px;
     height: 400px;
     overflow: scroll;
     overflow-x: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
 }
