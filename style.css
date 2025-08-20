@@ -307,12 +307,9 @@ article{
     color: #305978;
 }
 
-.about-me-aside #stats, #inventory{
+.about-me-aside #stats{
     width: 700px;
     height: 250px;
-}
-
-.about-me-aside #stats{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -330,6 +327,19 @@ article{
 
 .about-me-aside #stat-txt p{
     margin-left: 15px;
+}
+
+.about-me-aside #holder{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.about-me-aside #holder #inventory, #quests{
+    width: 325px;
+    height: 250px;
+    color: #305978;
+    font-size: 18px;
 }
 
 .about-me-aside #add{
