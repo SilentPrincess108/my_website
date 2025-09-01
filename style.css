@@ -409,6 +409,7 @@ article{
     align-items: flex-start;
     padding: 15px;
     width: 1050px;
+    height: 1000px;
     overflow: scroll;
     overflow-x: hidden;
     gap: 45px;
