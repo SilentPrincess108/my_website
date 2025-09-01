@@ -205,7 +205,7 @@ article{
   background: #f4f9fd;
 }
 
-#desc p, #updates p, #devlog-desc p{
+#desc p, #updates p, #devlog-desc p,#devlog-section-1 p{
     padding: 10px;
     margin: 0;
     color: #305978;
