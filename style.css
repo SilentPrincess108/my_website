@@ -9,7 +9,7 @@
 }
 
 /* styling for both homepg, devlog pg*/
-.home, .devlogs, .about-me, .passion{
+.home, .devlogs, .about-me, .passion, .video_games_pages{
     background-image: linear-gradient(rgba(124, 177, 232,0.5), rgba(244, 249, 253,1), rgba(124, 177, 232,0.5));
     background-repeat: no-repeat;
     
@@ -68,7 +68,7 @@ header{
     height: 100px;
     text-align: left;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 25px;
     color: #305978;
     display: flex;
     gap: 10px;
@@ -399,21 +399,19 @@ article{
     height: 1000px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     color: #305978;
 }
 
 .library{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-content: flex-start;
     padding: 15px;
     width: 1050px;
     height: 1000px;
     overflow: scroll;
     overflow-x: hidden;
-    gap: 45px;
-    row-gap: 30px;
+    gap: 40px;
 }
 
 .games img{
@@ -432,13 +430,46 @@ article{
 
 .games p{
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .games{
     width: 225px;
     height: 350px;
     text-align: center;
-    padding: 0;
-    
+    padding: 0;   
+}
+
+/* Styling for video game pages */
+
+.game-aside{
+    width: 30%;
+    color: #305978;
+}
+
+.game-aside #game-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game-aside #game-info img{
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.game-aside #game-info #info-box h3{
+    text-align: center;
+}
+
+.game-section{
+    width: 70%;
+    color: #305978;
+}
+
+.game-section #yapping{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
