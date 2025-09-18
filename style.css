@@ -464,7 +464,7 @@ article{
 }
 
 .game-section{
-    width: 70%;
+    width: 50%;
     color: #305978;
 }
 
@@ -472,4 +472,9 @@ article{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.carousel-aside{
+    width: 20%;
+    color: #305978;
 }
