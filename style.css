@@ -83,7 +83,7 @@ header{
     width: 1500px;
     height: 100vh;
     display: flex;
-    gap: 40px;
+    gap: 45px;
 }
 
 article{
@@ -141,7 +141,7 @@ article{
     text-align: center;
 }
 
-#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside #title, .devlog-section #title, .about-me-aside #title, .about-me-section #title{
+#left nav p, #info-title, #socials p, #middle #desc-title, #middle #updates-title, .devlog-aside #title, .devlog-section #title, .about-me-aside #title, .about-me-section #title, .game-section #title{
     display: block;
     margin: 0;
     padding: 6px;
@@ -205,7 +205,7 @@ article{
   background: #f4f9fd;
 }
 
-#desc p, #updates p, #devlog-desc p,#devlog-section-1 p, #image-carousel p, #image-carousel h3{
+#desc p, #updates p, #devlog-desc p,#devlog-section-1 p, #image-carousel p, #image-carousel h3, .game-section p{
     padding: 10px;
     margin: 0;
     color: #305978;
@@ -471,10 +471,22 @@ article{
 .game-section #yapping{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
+}
+
+.game-section #text-box{
+    height: 300px;
+}
+
+.game-section #text-box
+
+.aside2{
+    width: 20%;
+    color: #305978;
 }
 
 .carousel-aside{
-    width: 20%;
-    color: #305978;
+    width: 250px;
+    height: 700px;
+    overflow: hidden;
 }
