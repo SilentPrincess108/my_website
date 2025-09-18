@@ -490,3 +490,9 @@ article{
     height: 700px;
     overflow: hidden;
 }
+
+.carousel-aside #gifs{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
