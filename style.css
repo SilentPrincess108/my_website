@@ -212,7 +212,7 @@ article{
     font-size: 16px;
 }
 
-#middle .quote{
+.quote{
     border-left: 5px solid #305978;
     padding: 15px;
     font-size: 20px;
