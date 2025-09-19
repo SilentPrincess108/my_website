@@ -394,6 +394,16 @@ article{
     color: #305978;
 }
 
+.passion-aside #page-desc{
+    text-align: left;
+    font-size: 18px;
+}
+
+.passion-aside #page-desc p{
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
 .passion-section{
     width: 70%;
     height: 1000px;
