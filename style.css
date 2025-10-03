@@ -527,17 +527,21 @@ article{
 .project-boxes #project{
     width: 450px;
     height: 300px;
-    display: flex;
-    flex-direction: column;
+    background-color: #dff1ff;
+    color: #305978;
     overflow: hidden;
 }
 
-#cover-image{
+#project p{
+    padding: 15px;
+}
+
+#covers{
     transition: transform 1s ease 0s;
 }
 
-#cover-image:hover{
-    transform: translateY(-100%);
+#covers:hover{
+    transform: translateY(-85%);
 }
 
 .bar{
