@@ -555,3 +555,26 @@ article{
     font-size: 20px;
 }
 
+.dev-icon img{
+    width: 75px;
+    height: 75px;
+}
+
+.dev-icon{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    object-fit: contain;
+    overflow: hidden;
+    position: fixed;
+    margin: 10px;
+}
+
+#git-icon{
+    bottom: 0;
+}
+
+#itch-icon{
+    bottom: 0;
+    right: 0;
+}
