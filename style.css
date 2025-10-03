@@ -46,8 +46,10 @@ button:hover{
 }
 
 #container{
-    width: 1500px;
+    width: 100%;
+    max-width: 1500px;
     height: 100vh;
+    max-height: 100%;
     margin: auto;
     padding: 25px;
     display: flex;
