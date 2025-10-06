@@ -48,7 +48,7 @@ button:hover, #bink:hover{
 #container{
     width: 100%;
     max-width: 1500px;
-    height: 82vh;
+    height: 84vh;
     max-height: 100vh;
     margin: auto;
     padding: 25px;
@@ -75,6 +75,10 @@ header{
     color: #305978;
     display: flex;
     gap: 10px;
+}
+
+#logo{
+    width: 100px;
 }
 
 #gif{
