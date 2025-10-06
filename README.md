@@ -1,4 +1,4 @@
-My Personal Website!
+My Personal Website! [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 I was inspired to make this website after seeing all the cool creations made on Neocities! Seeing how people expressed themselves on the web really inspired me to do the same, leading me to create this website!
 I intend to use this site in much of the same way, a place where I can express myself and my love for my video games and programming! I also thought it'd make for a cool professional portfolio, but it's more nerdy than professional lol!
